@@ -1,15 +1,15 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://192.168.0.10/');
+define('HTTP_SERVER', 'http://89.149.80.137/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://192.168.0.10/');
+define('HTTPS_SERVER', 'http://89.149.80.137/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/html/catalog/');
 define('DIR_SYSTEM', '/var/www/html/system/');
-define('DIR_IMAGE', '/var/www/html/image/');
-define('DIR_STORAGE', '/var/www/storage/');
+define('DIR_IMAGE',  '/var/www/html/image/');
+define('DIR_STORAGE','/var/www/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');

@@ -13,9 +13,10 @@ Options -Indexes
 <FilesMatch "(?i)((\.tpl|.twig|\.ini|\.log|(?<!robots)\.txt))">
  Require all denied
 ## For apache 2.2 and older, replace "Require all denied" with these two lines :
-# Order deny,allow
-# Deny from all
+ Order deny,allow
+ Deny from all
 </FilesMatch>
+
 
 # SEO URL Settings
 RewriteEngine On
@@ -27,8 +28,13 @@ RewriteRule ^googlebase.xml$ index.php?route=extension/feed/google_base [L]
 RewriteRule ^system/storage/(.*) index.php?route=error/not_found [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !.*\.(ico|gif|jpg|jpeg|png|js|css)
-RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]
+#RewriteCond %{REQUEST_URI} !.*\.(ico|gif|jpg|jpeg|png|js|css)
+#RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]
+
+#by djpolmd  ______  if need redirect rule
+#RewriteCond %{HTTP_HOST} !^(.*)\192.168.0.10\$ [NC] 
+#RewriteRule ^(.*)$ http://89.149.80.137/$1 [R=301,L]
+
 
 ### Additional Settings that may need to be enabled for some servers
 ### Uncomment the commands by removing the # sign in front of it.
