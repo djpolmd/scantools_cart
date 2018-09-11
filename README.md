@@ -15,5 +15,12 @@ how to set up MYSQL
 5. grant all priveleges on *.* to 'pdobos'@'localhost'
 
 it's all db and user a created
-<img src="an_opencard_fork.jpg" with=400 heght=300>
-my 
+<img src="an_opencard_fork.jpg" height="420" width="620">
+<br>
+
+My version of site is with canged CSS style, changed logs to <b>"SCANTOOLS"</b>, and added Russian, Rominia to English, as well.
+
+Canged some Index in database.
+Also it's destinated on MariaDb engine.
+
+<b>Have Fun!</b>
