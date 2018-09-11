@@ -15,4 +15,5 @@ how to set up MYSQL
 5. grant all priveleges on *.* to 'pdobos'@'localhost'
 
 it's all db and user a created
-<img src="an_opencard_fork.jpg">
+<img src="an_opencard_fork.jpg" with=400 heght=300>
+my 
