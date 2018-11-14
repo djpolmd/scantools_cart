@@ -32,8 +32,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]
 
 #by djpolmd  ______  if need redirect rule
-#RewriteCond %{HTTP_HOST} !^(.*)\192.168.0.10\$ [NC] 
-#RewriteRule ^(.*)$ http://89.149.80.137/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} !^(.*)\192.168.0.22\$ [NC] 
+#RewriteRule ^(.*)$ 89.149.81.39/$1 [R=301,L]
 
 
 ### Additional Settings that may need to be enabled for some servers

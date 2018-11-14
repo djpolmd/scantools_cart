@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://89.149.80.137/');
+define('HTTP_SERVER', 'http://89.149.81.39/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://89.149.80.137/');
+define('HTTPS_SERVER', 'https://89.149.81.39/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/html/catalog/');
