@@ -40,7 +40,7 @@ Also, it's destinated on MariaDB engine.
 <img src="img2.jpg" height="420" width="620">
 <img src="img3.jpg" height="420" width="620">
 <img src="img4.jpg" height="420" width="620">
-<img src="img5.png" height="420" width="620">
+<img src="img5.jpg" height="420" width="620">
 
 <b>Have Fun!</b>
 
