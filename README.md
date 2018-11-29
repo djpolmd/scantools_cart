@@ -3,20 +3,22 @@
 
 how to set up MYSQL
 --------------------
+```
 1. mysql -u root -p (grand rood access to mysql, it's not rooted on UNIX)
 2. create database opencart_dev;
 3. show databases;
 <<<<<<< HEAD
+<br>
 4. create user 'username'@'localhost'
 5. grant all priveleges on *.* to 'username'@'localhost'
 
 it's all db and user a created
-
+<br>
 
 =======
-4. create user 'pdobos'@'localhost'
-5. grant all privileges on *.* to 'pdobos'@'localhost'
-
+4. create user 'pdobos'@'localhost'<br>
+5. grant all privileges on *.* to 'pdobos'@'localhost'<br>
+```
 it's all db and user a created
 <img src="img1.jpg" height="420" width="620">
 <br>
