@@ -18,7 +18,7 @@ it's all db and user a created
 5. grant all privileges on *.* to 'pdobos'@'localhost'
 
 it's all db and user a created
-<img src="an_opencard_fork.jpg" height="420" width="620">
+<img src="img1.jpg" height="420" width="620">
 <br>
 
 My version of the site is with changed CSS style, changed logos to <b>"SCAN TOOLS"</b>, and added Russian, Rominia to English, as well.
@@ -26,5 +26,10 @@ My version of the site is with changed CSS style, changed logos to <b>"SCAN TOOL
 Changed some Index in the database.
 Also, it's destinated on MariaDB engine.
 
+<img src="img2.jpg" height="420" width="620">
+<img src="img3.jpg" height="420" width="620">
+<img src="img4.jpg" height="420" width="620">
+<img src="img5.png" height="420" width="620">
+
 <b>Have Fun!</b>
->>>>>>> ed72ef603600f40ba293dcc4e2860891de314730
+
