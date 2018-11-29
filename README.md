@@ -1,5 +1,13 @@
+
 <img src="/image/catalog/opencart-logo.png">
 
+you can test this site onlinks below: 
+
+http://89.149.81.39
+http://89.149.81.39/admin/
+
+https://89.149.81.39
+https://89.149.81.39/admin/
 
 ### how to set up MYSQL
 --------------------
